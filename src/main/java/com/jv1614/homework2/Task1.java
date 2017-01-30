@@ -9,6 +9,10 @@ public class Task1 {
         System.out.println();
         numberSum ();
        // raznostSum();
+       
+       double a = Math.random()*10;
+       int b = (int) a;
+       System.out.println(b+1);
         
     }
     
