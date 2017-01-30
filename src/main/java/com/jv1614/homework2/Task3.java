@@ -10,26 +10,26 @@ public class Task3 {
          }
 
              static void printResult() {
-                 System.out.print ("Предложение 1: ");
-             result ();
-             System.out.print ("Предложение 2: ");
-             result ();
-             System.out.print ("Предложение 3: ");
-             result ();
-             System.out.print ("Предложение 4: ");
-             result ();
-             System.out.print ("Предложение 5: ");
-             result ();
-             System.out.print ("Предложение 6: ");
-             result ();
-             System.out.print ("Предложение 7: ");
-             result ();
-             System.out.print ("Предложение 8: ");
-             result ();
-             System.out.print ("Предложение 9: ");
-             result ();
-             System.out.print ("Предложение 10: ");
-             result ();
+                    System.out.print ("Предложение 1: ");
+                    result ();
+                    System.out.print ("Предложение 2: ");
+                    result ();
+                    System.out.print ("Предложение 3: ");
+                    result ();
+                    System.out.print ("Предложение 4: ");
+                    result ();
+                    System.out.print ("Предложение 5: ");
+                    result ();
+                    System.out.print ("Предложение 6: ");
+                    result ();
+                    System.out.print ("Предложение 7: ");
+                    result ();
+                    System.out.print ("Предложение 8: ");
+                    result ();
+                    System.out.print ("Предложение 9: ");
+                    result ();
+                    System.out.print ("Предложение 10: ");
+                    result ();
              }
                 
                static void result () {
