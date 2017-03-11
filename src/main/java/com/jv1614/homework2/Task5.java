@@ -4,7 +4,7 @@ public class Task5 {
        
     public static void main (String [] args){
                                         
-        int [][] ar = {{2,3,3,9,0},{3,7,9,49,14}};
+        int [][] ar = {{2,6,5,3,10},{3,7,6,50,14}};
         printAr(ar);  // метод реализующий вывод массива в прямом и обратном порядке
         print2Ar(ar);  //метод выводящий все четные элементы во всех четных строках
         print3Ar(ar);  //метод выводящий все нечетные элементы в нечетных строках
@@ -83,20 +83,16 @@ public class Task5 {
             System.out.println();
         System.out.println ("Вывод произведения элементов, кратных 3 в нечетных строках:"); 
             for (int i = 0; i < 2; i++) {               
-               int prd = 1;
-               int m = 0;
+               int k = 1; 
                for (int j = 0; j < 5; j++){
-                    if (i%2 == 0 && ar[i][j]%3 == 0){
-                        
-                        m = prd*ar[i][j];
-                        prd = ar[i][j];
-                        if (m != prd && m!=0){
-                        System.out.print(m);}
+                    if ((i==0 || (i+1)%2 != 0) && ar[i][j]%3 == 0){
+                        k *= ar[i][j];                       
                     }              
                }
-              // if (prd != 0){
-               //System.out.println(m);
+               if (k != 1){
+               System.out.println(k);
                }
-            }   // работает неверно,в процессе исправления...
+            }
+        }   
         
 }

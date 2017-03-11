@@ -101,6 +101,6 @@ public class Array {
               // if (prd != 0){
                //System.out.println(m);
                }
-            }
+            }   // работает неверно,в процессе исправления...
         
 }
