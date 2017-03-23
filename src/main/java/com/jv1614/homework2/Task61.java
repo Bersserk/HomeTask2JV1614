@@ -2,7 +2,7 @@ package com.jv1614.homework2;
 
 import java.util.Scanner;
 
-public class Task6 {
+public class Task61 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -21,17 +21,11 @@ public class Task6 {
         }
         System.out.println();
                 
-        for(int k=0; k<a.length; k++){
-            int z = a[x-1].length;
-            for(int m = z; m > 0; m--){
-                                
-                if (z-a[k].length>0){
-                    System.out.print("  ");
-                }else{
-                    System.out.print(a[k][z-1] + " ");
-                }
-            z--;    
-            }            
+        for(int k=a.length-1; k>-1; k--){
+             for (int j=0; j<a[k].length; j++){
+                 System.out.print(a[k][j] + " ");
+             }
+                        
             System.out.println();        
         }
     }    
